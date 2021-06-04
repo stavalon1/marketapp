@@ -38,9 +38,6 @@ router.post('/uploadfile', async(request, response) => {
     response.redirect('/');
 })
 
-    
-
-
 function generateImageName(min , max){
     return Math.floor((Math.random() * max) + min);
 }
